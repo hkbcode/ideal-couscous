@@ -1,18 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
-import Button from "react-bootstrap/Button"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { Button } from 'antd'
 
-const AboutPage = () => (
-  <Layout>
-    <SEO title="About me" />
-    <h1>About Page</h1>
 
-    <Link to="/">
-      <Button variant="primary">Go back to home</Button>
-    </Link>
-  </Layout>
-)
+
+const AboutPage = () =>{
+	return(
+		<div>
+			<h1> This is AntDesign UI on Gatsbyjs </h1>
+			<Button type="primary"> AntDesign </Button>
+		</div>
+	)
+}
+
+
 
 export default AboutPage
